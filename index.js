@@ -75,4 +75,6 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     document.getElementById('registrationForm').reset();
 });
 
+document.addEventListener('DOMContentLoaded', loadStoredData);
+
 
